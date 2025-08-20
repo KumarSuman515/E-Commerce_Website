@@ -25,14 +25,14 @@ const Header = () => {
             priority
             className="rounded"
           />
-          <span className="hidden sm:inline font-bold text-lg text-gray-800 dark:text-gray-200">
+          {/* <span className="hidden sm:inline font-bold text-lg text-gray-800 dark:text-gray-200">
             {APP_NAME}
-          </span>
+          </span> */}
         </Link>
 
         {/* Desktop Actions */}
         <div className="hidden md:flex items-center gap-4">
-          <ModeToggle />
+          
 
           <Link href="/cart">
             <ShoppingCart className="w-6 h-6 text-gray-700 dark:text-gray-300 hover:text-green-500 transition" />
