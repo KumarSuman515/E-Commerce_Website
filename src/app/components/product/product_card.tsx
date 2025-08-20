@@ -21,9 +21,9 @@ export default function ProductCard({ product }: { product: Product }) {
             src={product.images?.[0] || "/placeholder.png"}
             alt={product.name}
             width={300}
-            height={300}
+            height={200}
             priority
-            className="w-full h-60 object-cover"
+            className="w-full h-100 object-cover"
           />
         </Link>
       </CardHeader>
