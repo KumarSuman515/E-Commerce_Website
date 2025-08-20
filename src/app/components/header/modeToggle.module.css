@@ -1,0 +1,27 @@
+.toggleButton {
+  position: relative;
+  border-radius: 50%;
+  transition: box-shadow 0.2s, background-color 0.2s, transform 0.2s;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  
+}
+
+.toggleButton:focus {
+  box-shadow: 0 0 0 2px #6366f1;
+}
+
+.toggleButton:hover {
+  background-color: rgba(99, 102, 241, 0.1); /* soft hover effect */
+  transform: scale(1.05);
+}
+
+.toggleButtonIcon {
+  height: 1.2rem;
+  width: 1.2rem;
+}
